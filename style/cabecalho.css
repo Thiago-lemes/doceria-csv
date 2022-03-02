@@ -1,0 +1,12 @@
+.cabecalho {
+    align-items: center;
+    background: #e2dcdc;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.cabecalho__img{
+    margin-bottom: 5px;
+}

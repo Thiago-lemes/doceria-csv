@@ -1,11 +1,15 @@
 .menu__link {
     color: #a4003d;
-    font-size: 25px;
+    font-size: 3rem;
+    font-family: 'Indie Flower', cursive;;
     margin-right: 1.25rem;
     text-decoration: none;
+    transition: 0.5s;
     
 }
 
 .menu__link:hover {
-    text-decoration: underline;
+    background: #928f8f;
+    border-radius: 3px;
+    
 }

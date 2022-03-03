@@ -1,9 +1,4 @@
-.carrossel{
-    box-shadow: 2px 2px 4px black;
-    overflow: hidden;
-    height: 500px;
-    width: 50px;
-}
+
 
 .container{
     display: flex;
@@ -14,5 +9,7 @@
     object-fit: cover;
     height: 500px;
     width: 500px;
+    margin: 2px;
+    padding-bottom: 20px;
 }
 

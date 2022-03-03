@@ -2,6 +2,8 @@
 
 .container{
     display: flex;
+    border-top: 0.4px solid #45322e;
+    padding-top: 20px;
    
 }
 

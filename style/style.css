@@ -1,7 +1,24 @@
-*{
-    box-sizing: border-box;
-}
+
 body{
     background: #e2dcdc;
 
+}
+
+.rodape{
+    color: black;
+    background: #e2dcdc;
+    text-align: center;
+    font-size: 1.5em;
+    border-top: 0.4px solid #45322e;
+    padding: 15px;
+}
+.coppy{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.coppy:hover{
+    color: #a4003d;
+    text-decoration: none;
 }

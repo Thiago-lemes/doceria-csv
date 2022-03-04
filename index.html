@@ -8,7 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/reset.css">
+
     <link rel="stylesheet" href="style/style.css">
+    
 
     <link rel="stylesheet" href="style/cabecalho.css">
 
@@ -33,9 +35,9 @@
     <link rel="stylesheet" href="style/formula/formula-titulo.css">
     <link rel="stylesheet" href="style/formula/formula-paragrafo.css">
 
-    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    
+    <link rel="shortcut icon" href="favicon/apple-touch-icon.png" type="image/x-icon">
 
     
 
@@ -72,22 +74,37 @@
             
     
     </section>
-    <section >
-        <h2 class="carrossel__titulo">Doces</h2>
-        <ul class="container">
-            <li class="slider__active" ><img class="carrossel__img"  src="fotos/imagem-produtos/cupcake.jpg" alt=""></li>
 
-            <li class="slider__active"><img class="carrossel__img" src="fotos/imagem-produtos/pexels-abhinav-goswami-291528.jpg" alt=""></li>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade container" data-ride="carousel">
+            <div class="carousel-inner ">
+              <div class="carousel-item active ">
+                <img class="d-block w-100 carrossel__img" src="fotos/imagem-produtos/coffe.jpg" alt="Primeiro Slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 carrossel__img" src="fotos/imagem-produtos/cupcake.jpg" alt="Segundo Slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 carrossel__img" src="fotos/imagem-produtos/bolo.jpg" alt="Terceiro Slide">
+              </div>
 
-            <li class="slider__active" ><img class="carrossel__img" src="fotos/imagem-produtos/pexels-marta-dzedyshko-2067436.jpg" alt=""></li>
+              <div class="carousel-item">
+                <img class="d-block w-100 carrossel__img" src="fotos/imagem-produtos/dounts.jpg" alt="Terceiro Slide">
+              </div>
 
-            <li class="slider__active" ><img class="carrossel__img" src="fotos/imagem-produtos/foto-principal.jpeg" alt=""></li>
+              <div class="carousel-item">
+                <img class="d-block w-100 carrossel__img" src="fotos/imagem-produtos/pexels-abhinav-goswami-291528.jpg" alt="Terceiro Slide">
+              </div>
 
-            <li class="slider__active"><img class="carrossel__img" src="fotos/imagem-produtos/pexels-patricio-nahuelhual-10791754.jpg" alt=""></li>
-
-            <li class="slider__active"><img class="carrossel__img" src="fotos/imagem-produtos/coffe.jpg" alt=""></li>
-        </ul>
-    </section>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
+          </div>
 
     <section class="formula"> <a name = "Formula"></a>
         <h2 class="formula__titulo">Formula Magica</h2>
@@ -112,11 +129,12 @@
     </section>
     
     <footer class="rodape">
-        <p>Copyright &copy; elaborado por <a href="https://github.com/Thiago-lemes"></a></p>
-     
-
+        <p>Copyright &copy; elaborado por <a class="coppy" href="https://github.com/Thiago-lemes" target="#">Thiago Lemes</a></p>
     </footer>
 
-    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>

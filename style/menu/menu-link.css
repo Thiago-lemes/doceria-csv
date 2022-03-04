@@ -11,5 +11,7 @@
 .menu__link:hover {
     background: #928f8f;
     border-radius: 3px;
+    text-decoration: none;
+    color: #a4003d;;
     
 }
